@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #ff8e8e;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #fd6a6a;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 0.5rem 0;
+        }
+
+        .precio {
+            color: green;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #ff8e8e;
+            color: white;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fashion corner</h1>
+        <p>Hacemos envíos a todo el país.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>    
+
+    <main class="container">
+        <h2>Catálogo</h2>
+        <div class="productos">
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/814TU2aLEUL._AC_UY1100_.jpg" alt="Producto 1">
+                <h3>Vestido de verano</h3>
+                <p class="precio">$1,199.99 DOP</p>
+                <p>Vestido con corte tipo línea A y cintura alta. 100% algodón.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.etsystatic.com/21090793/r/il/f9fe4e/5805079420/il_1080xN.5805079420_r0vj.jpg" alt="Producto 2">
+                <h3>Bolso de mano</h3>
+                <p class="precio">$899.99 DOP</p>
+                <p>Bolso elegante estilo vintage con detalles florales.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://batistellaar.vtexassets.com/arquivos/ids/178905/Sandalias-con-pulsera-de-cuero-en-celeste.jpg?v=638471583258570000" alt="Producto 3">
+                <h3>Sandalias de tacón</h3>
+                <p class="precio">$799.99 DOP</p>
+                <p>Sandalias elegantes confeccionadas en cuero celeste.</p>
+            </div>
+            <div class="card">
+                <img src="https://tequierofashion.com/cdn/shop/files/Sbe005cb804c54b419ece291fbdf6b24bx_2048x.jpg?v=1690565901" alt="Producto 4">
+                <h3>Vestido elegante</h3>
+                <p class="precio">$999.99 DOP</p>
+                <p>Vestido negro con espalda descubierta. Bolso no incluido.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.media.amplience.net/i/lmg/7004314807Grey-7004314807GreySS23CP070323_01-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-m-prt-pdp-2x$" alt="Producto 5">
+                <h3>Conjunto deportivo</h3>
+                <p class="precio">$1,899.99 DOP</p>
+                <p>Incluye leggings, top y chaqueta. 100% algodón.</p>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/81tLiftYpAL._UY350_.jpg" alt="Producto 6">
+                <h3>Sombrero de playa</h3>
+                <p class="precio">$499.99 DOP</p>
+                <p>Sombrero flexible hecho con fibras naturales y resistentes.</p>
+            </div>
+            <div class="card">
+                <img src="https://ae01.alicdn.com/kf/S0f45de4e0d85482f8e373575a3c1d76dN.jpg" alt="Producto 7">
+                <h3>Botas de plataforma</h3>
+                <p class="precio">$1,999.99 DOP</p>
+                <p>Botas negras hasta la rodilla.</p>
+            </div>
+            <div class="card">
+                <img src="https://m.media-amazon.com/images/I/712Wubmt+eL._UY1000_.jpg" alt="Producto 8">
+                <h3>Cardigan</h3>
+                <p class="precio">$1,399.99 DOP</p>
+                <p>Cardigan de tela gruesa con bordado de fresas.</p>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fashion corner - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
